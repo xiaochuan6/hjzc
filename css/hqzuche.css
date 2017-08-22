@@ -1,0 +1,87 @@
+#banner {
+	width: 100%;
+	background: url('../images/4banner.jpg') no-repeat center;
+	height: 150px;
+}
+#content #ctop {
+	width: 1140px;
+}
+#content #ctop h2 {
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	border-bottom: 1px dashed #999;
+}
+#content #ctop p{
+	margin-left: 30px;
+	line-height: 25px;
+	padding: 8px 0;
+}
+#content #ctop .cp1{
+	text-indent: 2em;
+
+}
+#content #ctop p b{
+	color: #00c;
+}
+#content #liucheng {
+	margin: 20px 0;
+	display: block;
+	background: url('../images/4liucheng.jpg');
+	width: 1140px;
+	height: 110px;
+}
+#content #main{
+	margin: 0 auto;
+	border-bottom: 1px solid #333;
+	padding-bottom: 20px;
+}
+#content #main li {
+	width: 360px;
+	height: 310px;
+	background: #f0f0f0;
+	float: left;
+	margin: 10px;
+}
+#content #main li img {
+	width: 340px;
+	margin: 10px;
+	height: 250px;
+}
+#content #main li a {
+	font-size: 14px;
+	display: block;
+	width: 360px;
+	text-align: center;
+}
+#yejiao {
+	text-align: right;
+	padding-right: 20px;
+	margin: 15px 0 30px 0;
+}
+#yejiao a{
+	display: inline-block;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px #000 solid;
+	width: 25px;
+	line-height: 20px;
+	color: #eee;
+	background: #777;
+}
+#yejiao .f {
+	background: #f0f8ff;
+	color: #333;
+}
+#yejiao .l4 {
+	width: 70px;
+}
+#yejiao .l5 {
+	width: 40px;
+}
+#yejiao a:hover {
+	background: #f0f8ff;
+	color: #333;
+}

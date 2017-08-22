@@ -1,0 +1,107 @@
+#banner {
+	width: 100%;
+	background: url('../images/6banner.jpg') no-repeat center;
+	height: 150px;
+}
+#content #ctop {
+	width: 1140px;
+}
+#content #ctop h2 {
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	border-bottom: 1px dashed #999;
+}
+#content #ctop p{
+	margin-left: 30px;
+	line-height: 25px;
+	padding: 8px 0;
+}
+#content #ctop .cp1{
+	text-indent: 2em;
+
+}
+#content #ctop p b{
+	color: #00c;
+}
+#content #liucheng {
+	margin: 20px 0;
+	display: block;
+	background: url('../images/5liucheng.jpg');
+	width: 1140px;
+	height: 72px;
+}
+#content #main {
+	width: 1140px;
+	height: 376px;
+	margin-bottom: 30px;
+  border: 3px solid #dddddd;
+}
+#content #main #mtop {
+	width: 395px;
+	height: 45px;
+	margin-top: 30px;
+	background: url('../images/5dingc1.jpg') no-repeat left;
+}
+#content #main #left {
+	width: 360px;
+	height: 305px;
+	float: left;
+}
+#content #main #left form{
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#content #main #left p {
+	width: 360px;
+	height: 50px;
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 50px;
+}
+#content #main #left select {
+	height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  background: none;
+  font-family: "微软雅黑";
+  color: #666666;
+  font-size: 12px;
+}
+#content #main p input {
+	height: 25px;
+}
+#content #main #left p #time{
+	background: url('../images/5datebg.jpg');
+	margin: 0 30px;
+}
+#content #main #left .next {
+	display: block;
+	width: 221px;
+	height: 43px;
+	margin: 0 auto;
+	background: url('../images/nextbtn.jpg');
+}
+#content #main #right {
+  width: 520px;
+  float: left;
+  height: 300px;
+  padding-left: 90px;
+  margin-left: 50px;
+  border-left: 1px dashed #666;
+}
+#content #main #right h1 {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#content #main #right h2 {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 24px;
+ }
+#right span,#right img {
+	margin: 10px 0;
+	vertical-align: middle;
+ }

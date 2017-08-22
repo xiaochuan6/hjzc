@@ -1,0 +1,161 @@
+#banner {
+	width: 100%;
+	background: url('../images/2banner.jpg') no-repeat center;
+	height: 150px;
+}
+#content {
+	margin-top: 20px;
+}
+#content #right h2 {
+  font-size: 20px;
+  color: #f08d18;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #4b4a48;
+}
+#content #right h2 a {
+	font-size: 12px;
+  color: #272727;
+  float: right
+}
+#content #right h2 a:hover {
+  color: #f08d18;
+}
+#content #ctop {
+	width: 1140px;
+}
+#content #ctop h2 {
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	border-bottom: 1px dashed #999;
+}
+#content #ctop p{
+	margin-left: 30px;
+	line-height: 40px;
+}
+#content #ctop p b{
+	color: #00c;
+}
+#left {
+	margin-top: 20px;
+	width: 770px;
+	float: left;
+}
+#left #ltop #ltl img{
+	width: 400px;
+	height: 295px;
+	float: left;
+}
+#left #ltop #ltr {
+	float: right;
+}
+#left #ltop #ltr h5{
+	width: 350px;
+  font-size: 16px;
+  color: #f08d18;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#left #ltop #ltr ul li {
+	line-height: 24px
+}
+#left #ltop #ltr .lx {
+	margin-top: 50px;
+  font-size: 12px;
+  color: #f08d18;
+}
+#left #ltop #ltr img {
+	margin: 10px 0;
+}
+#left #ltop #ltr a {
+	display: block;
+}
+#main {
+	float: left;
+	padding-bottom: 30px;
+	border-bottom: 1px  solid #333;
+}
+#main p {
+	padding-top: 10px;
+	text-indent: 2em;
+	line-height: 35px;
+	font-size: 16px;
+}
+#leftf a{
+	margin-top: 15px;
+	display: inline-block;
+}
+#leftf .qian {
+	float: left;
+}
+#leftf .hou {
+	float: right;
+}
+#right {
+	float: right;
+	width: 340px;
+}
+#right #c1r li {
+	width: 150px;
+	height: 135px;
+	background: #f0f0f0;
+	float: left;
+	margin: 10px;
+}
+#right #c1r li img {
+	width: 130px;
+	margin: 10px 10px 0 10px;
+	height: 95px;
+}
+#right #c1r {
+	width: 340px;
+	float: right;
+}
+#right #c1r li a {
+	font-size: 12px;
+	display: block;
+	width: 150px;
+	text-align: center;
+}
+#right #c3r {
+	float: left;
+	margin-left: 20px;
+	width: 340px;
+}
+#right #c3r ul li {
+	width: 340px;
+	height: 75px;
+	margin: 20px 0;
+}
+#right #c3r ul li img {
+	width: 130px;
+	height: 75px;
+	float: left;
+}
+#right #c3r ul li a {
+	margin:5px;
+	font-weight: bold;
+	color: #272727;
+}
+#right #c3r ul li p{
+	text-indent: 2em;
+	line-height: 22px;
+}
+#right #c2r {
+	width: 340px;
+	height: 315px;
+	margin-left: 20px;
+	float: left;
+}
+#right #c2r ul li {
+	background: url('../images/newsbg.jpg') no-repeat left ;
+	font-size: 14px;
+	width: 340px;
+	height: 30px;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-left: 20px;
+	line-height: 30px;
+}

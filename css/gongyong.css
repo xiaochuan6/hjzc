@@ -1,0 +1,194 @@
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,em,form,fieldset,legend,input,textarea,select {
+margin:0;
+padding:0;
+font-family: "微软雅黑";
+}
+ul {
+	list-style: none;
+}
+a{
+	color: #272727;
+	text-decoration: none;
+}
+body {
+	font-size: 12px;
+}
+#header,#banner,#footer{
+	width: 100%;
+}
+#htop,#content,#fb{
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+}
+#header {
+	width: 100%;
+	height: 90px;
+	border-top: 5px solid #f08d18;
+}
+#logo {
+	width: 282px;
+	height: 48px;
+	position: absolute;
+	left: 0;
+	margin-top: 20px;
+	background: url('../images/logo.jpg');
+}
+#htop #tel {
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 204px;
+	height: 25px;
+	background: url('../images/tel.jpg');
+}
+#htop ul{
+	position: absolute;
+	right: 0;
+	top: 60px;
+	bottom: -20px;
+}
+#htop ul li {
+	float: left;
+	margin-left: 10px;
+}
+#htop ul .last{
+	line-height: 25px;
+}
+#htop ul .last::after{
+	content: none;
+}
+#htop ul li::after {
+	content: '|';
+	font-size: 16px;
+	margin-left: 10px;
+}
+a:hover {
+	color: #F08D18;
+}
+#nav{
+	width: 100%;
+	height: 52px;
+	background: #4B4A48;
+}
+#nav ul{
+	margin: 0 auto;
+	width: 1140px;
+	height: 50px;
+}
+#nav ul li{
+	float: left;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+}
+#nav li a{
+	display: block;
+	color: #fff;
+	height: 52px;
+	padding: 0 30px;
+	background: #4B4A48;
+}
+#nav ul .first{
+	background: url('../images/nav.1.png') ;
+}
+#nav li a:hover{
+	background: url('../images/nav.1.png');
+}
+#footer{
+	height: 300px;
+	color: #fff;
+	background-color: #4B4A48;
+	border-top: 4px #F08D18 solid;
+}
+#footer #h {
+	padding-top: 20px;
+}
+#footer #f1{
+	height: 130px;
+	float: left;
+}
+#footer #h{
+	width: 997px;
+	float: left;
+}
+#footer h1 span{
+	font-size: 18px;
+	margin-right: 115px;
+	font-weight: bold;
+}
+#footer ul{
+	width: 180px;
+	float: left;
+}
+#footer #f1 ul {
+	margin-right: 7px;
+}
+#footer #f1 ul li{
+	padding-top: 18px;
+	font-size: 10px;
+}
+#footer #f1 li a{
+	color: #fff;
+}
+#footer #f1 li a:hover{
+	color: #F08D18;
+}
+#footer #lianxi{
+	width: 260px;
+	float: left;
+	padding-top: 15px;
+	font-size: 12px;
+	}
+#footer img{
+	float: right;
+	margin-right: 200px;
+}
+#footer #f2{
+	width: 1130px;
+	height: 19px;
+	float: left;
+}
+#footer #f2 span{
+	float: right;
+}
+#footer #f3 p{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+}
+#footer	#f3 .f3{
+	float: left;
+	padding-left: 80px;
+	width: 800px;
+}
+#footer #f3	ul li{
+	line-height: 30px;
+	float: left;
+	color: #fff;
+}
+#footer #f3	ul li a{
+	color: #fff;
+}
+#footer #f3 li:after{
+	content: '|';
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0 8px;
+	float: right;
+}
+#footer #f3 .last:after{
+	content: '';
+}
+#footer #f3 li a:hover{
+	color:#F08D18;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+@media screen and (min-width: 300px) and (max-width: 1140px) {
+    #header,#banner,#footer,#nav{ width: 1140px; }
+}

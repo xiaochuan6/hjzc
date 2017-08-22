@@ -1,0 +1,214 @@
+#banner {
+	width: 100%;
+	background: url('../images/2banner.jpg') no-repeat center;
+	height: 150px;
+}
+#content {
+	margin-top: 20px;
+}
+#content #right h2 {
+  font-size: 20px;
+  color: #f08d18;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #4b4a48;
+}
+#content #right h2 a {
+	font-size: 12px;
+  color: #272727;
+  float: right
+}
+#content #right h2 a:hover {
+  color: #f08d18;
+}
+#content #ctop {
+	width: 1140px;
+}
+#content #ctop h2 {
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	border-bottom: 1px dashed #999;
+}
+#content #ctop p{
+	margin-left: 30px;
+	line-height: 40px;
+}
+#content #ctop p b{
+	color: #00c;
+}
+#left {
+	margin-top: 10px;
+	width: 770px;
+	float: left;
+}
+#left h4 {
+	width: 770px;
+	height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f08d18;
+  text-align: center;
+  border-bottom: 1px solid #4a4b48;
+}
+#left .zuzhe {
+	width: 770px;
+	text-align: center;
+	padding-top: 5px;
+}
+#left .mtop {
+	background: #eee;
+	margin-top: 20px;
+}
+#main {
+	float: left;
+	padding-bottom: 30px;
+	border-bottom: 1px  solid #333;
+}
+#main p {
+	padding-top: 10px;
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 12px;
+}
+#leftf a{
+	margin-top: 15px;
+	display: inline-block;
+}
+#leftf .qian {
+	float: left;
+}
+#leftf .hou {
+	float: right;
+}
+#right {
+	float: right;
+	width: 340px;
+}
+#content #right #c1r {
+	width: 340px;
+	margin-left: 20px;
+	float: right;
+}
+#content #right #c1r h2{
+	width: 340px;
+	margin-bottom: 10px;
+}
+#content #right #c1r h2 a{
+	float: right;
+	font-size: 12px;
+	color: #333;
+}
+#content #right #c1r h4 {
+	width: 200px;
+	text-align: left;
+	margin-top: 10px;
+	line-height: 30px;
+	float: right;
+}
+#content #right #c1r h4 i {
+	font-style: normal;
+  font-size: 20px;
+  color: #f8931f;
+}
+#content #right #c1r h4 span {
+	font-size: 14px;
+	margin-left: 5px;
+	color: #373737;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+#right #c3r {
+	float: left;
+	margin-left: 20px;
+	width: 340px;
+}
+#right #c3r ul li {
+	width: 340px;
+	height: 75px;
+	margin: 20px 0;
+}
+#right #c3r ul li img {
+	width: 130px;
+	height: 75px;
+	float: left;
+}
+#right #c3r ul li a {
+	margin:5px;
+	font-weight: bold;
+	color: #272727;
+}
+#right #c3r ul li p{
+	text-indent: 2em;
+	line-height: 22px;
+}
+#right #c2r {
+	width: 305px;
+	height: 254px;
+	margin-left: 20px;
+	float: left;
+}
+#right #c2r h2{
+	width: 305px;
+	margin-bottom: 10px;
+}
+#right #c2r h2 a{
+	float: right;
+	font-size: 12px;
+	color: #333;
+}
+#right  #c2r a{
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	float: left;
+}
+#right  #c2r a:hover {
+	color: #333;
+	font-weight: bold;
+}
+#right  #c2r .a1{
+	width: 133px;
+	height: 129px;
+	line-height: 130px;
+	background: #F8931F;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+#right  #c2r .a2{
+	width: 166px;
+	height: 62px;
+	line-height: 62px;
+	background: #F15A25;
+	margin-bottom: 6px;
+}
+#right  #c2r .a3{
+	width: 166px;
+	height: 62px;
+	line-height: 62px;
+	background: #01A89E;
+	margin-bottom: 6px;
+}
+#right  #c2r .a4{
+	width: 80px;
+	height: 63px;
+	line-height: 63px;
+	margin-right: 6px;
+	background: #01A89E;
+}
+#right  #c2r .a5{
+	width: 79px;
+	height: 63px;
+	line-height: 63px;
+	margin-right: 6px;
+	background: #F15A25;
+}
+#right  #c2r .a6{
+	width: 134px;
+	height: 63px;
+	line-height: 63px;
+	background: #F8931F;
+}
